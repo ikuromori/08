@@ -25,7 +25,7 @@ if($msg1 =="登録する"){
 
 // データベースと接続
 try {
-  $pdo = new PDO('mysql:dbname=ikuromori_a_db;charset=utf8;host=mysql57.ikuromori.sakura.ne.jp', 'ikuromori', 'akabane1');
+  $pdo = new PDO('mysql:dbname=ikuromori_a_db;charset=utf8;host=mysql57.ikuromori.sakura.ne.jp', 'ikuromori', '******');
 } catch (PDOException $e) {
   exit('DbConnectError:'.$e->getMessage());
 }
@@ -58,7 +58,7 @@ $return_message_text ="診察券を発行しました。\n診察券番号:".$r_i
 
 // データベースと接続
 try {
-  $pdo = new PDO('mysql:dbname=ikuromori_a_db;charset=utf8;host=mysql57.ikuromori.sakura.ne.jp', 'ikuromori', 'akabane1');
+  $pdo = new PDO('mysql:dbname=ikuromori_a_db;charset=utf8;host=mysql57.ikuromori.sakura.ne.jp', 'ikuromori', '********');
 } catch (PDOException $e) {
   exit('DbConnectError:'.$e->getMessage());
 }
@@ -88,7 +88,7 @@ $return_message_text ="あなたの診察券情報は\n診察券番号:".$r_id."
 
 // // データベースと接続
 // try {
-//   $pdo = new PDO('mysql:dbname=ikuromori_a_db;charset=utf8;host=mysql57.ikuromori.sakura.ne.jp', 'ikuromori', 'akabane1');
+//   $pdo = new PDO('mysql:dbname=ikuromori_a_db;charset=utf8;host=mysql57.ikuromori.sakura.ne.jp', 'ikuromori', '*******');
 // } catch (PDOException $e) {
 //   exit('DbConnectError:'.$e->getMessage());
 // }

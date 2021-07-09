@@ -2,7 +2,7 @@
 
 $id = $_GET["id"];
 try {
-    $pdo = new PDO('mysql:dbname=ikuromori_a_db;charset=utf8;host=mysql57.ikuromori.sakura.ne.jp', 'ikuromori', 'akabane1');
+    $pdo = new PDO('mysql:dbname=ikuromori_a_db;charset=utf8;host=mysql57.ikuromori.sakura.ne.jp', 'ikuromori', '********');
   } catch (PDOException $e) {
     exit('DbConnectError:'.$e->getMessage());
   }

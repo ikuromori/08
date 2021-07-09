@@ -1,6 +1,6 @@
 <?php
  
-$accessToken = '27Rkwn9y8oyu5aKMiuo5tQjMmWv6aeyA2x5zZRm1JCeLmEG77qrhXWPxORHvW1nB2InioW/Ja7Nc/9rxvhygeKworDXz7vaWRQkusrck+mbI1SO68GDmaf0kRtPpWaxA7vD9UG9H0jgeJnDAu5pXLgdB04t89/1O/w1cDnyilFU=';
+$accessToken = '******************';
  
 //ユーザーからのメッセージ取得
 $json_string = file_get_contents('php://input');
